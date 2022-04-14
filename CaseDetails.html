@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function myFunction1() {
+      alert("VVSK Aditya has been assigned to you");
+    }
+    function myFunction2() {
+      alert("Nandini has been assigned to you");
+    }
+    function myFunction3() {
+      alert("Pranati has been assigned to you");
+    }
+    function myFunction4() {
+      alert("Amulya has been assigned to you");
+    }
+    function myFunction5() {
+      alert("Krishna Chaitanya has been assigned to you");
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="LawyerLogin.css">
+    <style>
+        #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers tr:hover {background-color: #ddd;}
+
+        #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: grey;
+        color: white;
+        }
+
+        #chooseLawyer {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+        }
+
+        #chooseLawyer td, #chooseLawyer th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+        #chooseLawyer th{
+          padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+        background-color: grey;
+        color: white;
+        }
+        
+    </style>
+</head>
+
+<body style="padding: 25px 50px;">
+    <h1>Theft of Jewellery</h1><br>
+    <h2>Description</h2>
+       <p>The homeowners were out on a vacation from 22nd December to 26th december.
+        They discovered that their house was ransacked on 26th and filed a complaint.
+        10 sets of gold necklaces and 4 sets of bangles were stolen.</p>
+    
+    <br>
+
+    <h2>Case Evidences so far</h2><br>
+    <table id="customers">
+        <tr>
+          <th>Description</th>
+          <th>Date</th>
+          <th>File</th>
+        </tr>
+        <tr>
+          <td>CCTV footage of the night of theft</td>
+          <td>26-12-21</td>
+          <td><a href="se1.pdf">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>Report by eye witness 1</td>
+          <td>27-12-21</td>
+          <td><a href="se2.pdf">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>Report By Eye witness 2</td>
+          <td>27-12-21</td>
+          <td><a href="se3.pdf">Click Here</a></td>
+        </tr>
+      </table>
+      <br><br>
+      <h2> Choose a lawyer</h2>
+      <table id="chooseLawyer">
+        <tr>
+          <th>Lawyer Name</th>
+          <th>Experience</th>
+          <th>Fees per hearing</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Mr VVSK Aditya</td>
+          <td>4 years</td>
+          <td>1900/-</td>
+          <td><button onclick="myFunction1()">Pick</button></td>
+        </tr>
+        <tr>
+          <td>Ms Nandini</td>
+          <td>5 years</td>
+          <td>2700/-</td>
+          <td><button onclick="myFunction2()">Pick</button></td>
+        </tr>
+        <tr>
+          <td>Ms Pranati</td>
+          <td>3 years</td>
+          <td>1400/-</td>
+          <td><button onclick="myFunction3()">Pick</button></td>
+        </tr>
+        <tr>
+          <td>Ms Amulya</td>
+          <td>3 years</td>
+          <td>1400/-</td>
+          <td><button onclick="myFunction4()">Pick</button></td>
+        </tr>
+        <tr>
+          <td>Mr Krishna Chaitanya</td>
+          <td>1 year</td>
+          <td>400/-</td>
+          <td><button onclick="myFunction5()">Pick</button></td>
+        </tr>
+      </table>
+    
+    
+        
+</body>
+</html>

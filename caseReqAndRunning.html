@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    function myFunction1() {
+      alert("The case has been assigned to you");
+    }
+    function myFunction2() {
+      alert("The case will be assigned to someone else");
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="LawyerLogin.css">
+    <style>
+        #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers tr:hover {background-color: #ddd;}
+
+        #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: grey;
+        color: white;
+        }
+
+        #chooseLawyer {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+        }
+
+        #chooseLawyer td, #chooseLawyer th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+        #chooseLawyer th{
+          padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+        background-color: grey;
+        color: white;
+        }
+        
+    </style>
+</head>
+
+<body style="padding: 25px 50px;">
+    
+
+    <h2>Case Requests</h2><br>
+    <table id="customers">
+        <tr>
+          <th>Description</th>
+          <th>Jurisdiction</th>
+          <th>Accept</th>
+          <th>reject</th>
+        </tr>
+        <tr>
+          <td>Theft of Jewellery - <a href="CaseDetails2.html">Details</a></td>
+          <td>Narayanaguda </td>
+          <td><button onclick="myFunction1()">Accept</button></td>
+          <td><button onclick="myFunction2()">Reject</button></td>
+        </tr>
+        <tr>
+          <td>Attempted Murder- <a href="CaseDetails2.html">Details</a></td>
+          <td>Secundrabad</td>
+          <td><button onclick="myFunction1()">Accept</button></td>
+          <td><button onclick="myFunction2()">Reject</button></td>
+        </tr>
+        <tr>
+          <td>Land grabbing- <a href="CaseDetails2.html">Details</a></td>
+          <td>Patancheru</td>
+          <td><button onclick="myFunction1()">Accept</button></td>
+          <td><button onclick="myFunction2()">Reject</button></td>
+        </tr>
+      </table>
+      <br><br>
+      <h2> Running Cases</h2>
+      <table id="chooseLawyer">
+        <tr>
+          <th>Case Description</th>
+          <th>Client Name</th>
+          <th>No of Hearings so far</th>
+          <th>Dues</th>
+        </tr>
+        <tr>
+          <td>Bike Theft</td>
+          <td>Mr Raghu</td>
+          <td>3</td>
+          <td>1500/-</td>
+        </tr>
+        <tr>
+          <td>Attempted Murder</td>
+          <td>Mr Rajesh</td>
+          <td>2</td>
+          <td>1800/-</td>
+        </tr>
+        <tr>
+          <td>Domestic Abuse</td>
+          <td>3 years</td>
+          <td>4</td>
+          <td>2300/-</td>
+        </tr>
+      </table>
+    
+    
+        
+</body>
+</html>

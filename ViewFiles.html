@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Id 23445</title>
+    <link rel="stylesheet" href="LawyerLogin.css">
+    <style>
+        #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers tr:hover {background-color: #ddd;}
+
+        #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: grey;
+        color: white;
+        }
+    </style>
+</head>
+
+<body style="padding: 25px 50px;">
+    <h1>Existing Evidences</h1><br>
+    <table id="customers">
+        <tr>
+          <th>Description</th>
+          <th>Date</th>
+          <th>File</th>
+        </tr>
+        <tr>
+          <td>CCTV footage of the night of theft</td>
+          <td>26-12-21</td>
+          <td><a href="se1.pdf">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>Report by eye witness 1</td>
+          <td>27-12-21</td>
+          <td><a href="se2.pdf">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>Report By Eye witness 2</td>
+          <td>27-12-21</td>
+          <td><a href="se3.pdf">Click Here</a></td>
+        </tr>
+        <tr>
+          <td>Report of Hearing 1 dated 30-12-21</td>
+          <td>27-12-21</td>
+          <td><a href="se4.pdf">Click Here</a></td>
+        </tr>
+      </table>
+      <br><br>
+    <form action="j2.html" method="post">
+        <h2>Add New Reports</h2><br>
+        <input type="file" id="myFile" name="filename"> <nbsp>
+        <button class="btn mt-3">Submit</button>
+        <br><br>
+        <h2>Add Latest hearing report</h2><br>
+        <input type="file" id="myFile" name="filename"> <nbsp>
+        <button class="btn mt-3">Submit</button>
+    </form>
+    
+    
+        
+</body>
+</html>
